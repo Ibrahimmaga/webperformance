@@ -28,4 +28,6 @@ jobs:
         
     - run: |
            cd my-app
-           yarn 
+           yarn ci
+           yarn build
+           yarn test
