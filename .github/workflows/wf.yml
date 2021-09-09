@@ -27,6 +27,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - run: cd my-app
-           yarn ci
-           yarn build 
-           yarn test
+           yarn 
