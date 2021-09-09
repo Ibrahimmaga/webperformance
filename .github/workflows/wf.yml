@@ -26,5 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         
-    - run: cd webperformance/my-app
+    - run: |
+           cd my-app
            yarn 
